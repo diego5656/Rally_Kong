@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D10B5724-0E54-3341-9216-F52B5A0F7D8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>PruebaDiego</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\bin\PruebaDiego\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PruebaDiego.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PruebaDiego</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\bin\PruebaDiego\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PruebaDiego.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PruebaDiego</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\bin\PruebaDiego\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PruebaDiego.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PruebaDiego</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\bin\PruebaDiego\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PruebaDiego.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PruebaDiego</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/Box2D/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/chipmunk/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/webp/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/png/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;lib\Debug\external.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\prebuilt\win32\debug\libbox2d.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Debug\ext_recast.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\prebuilt\win32\debug\libbullet.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Debug\ext_tinyxml2.lib;lib\Debug\ext_xxhash.lib;lib\Debug\ext_xxtea.lib;lib\Debug\ext_clipper.lib;lib\Debug\ext_edtaa3func.lib;lib\Debug\ext_convertUTF.lib;lib\Debug\ext_poly2tri.lib;lib\Debug\ext_md5.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/Debug/PruebaDiego.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Debug/PruebaDiego.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/Box2D/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/chipmunk/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/webp/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/png/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\cocos2d.lib;lib\Release\external.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Release\ext_recast.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Release\ext_tinyxml2.lib;lib\Release\ext_xxhash.lib;lib\Release\ext_xxtea.lib;lib\Release\ext_clipper.lib;lib\Release\ext_edtaa3func.lib;lib\Release\ext_convertUTF.lib;lib\Release\ext_poly2tri.lib;lib\Release\ext_md5.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Release\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/Release/PruebaDiego.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/Release/PruebaDiego.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/Box2D/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/chipmunk/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/webp/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/png/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\cocos2d.lib;lib\MinSizeRel\external.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\MinSizeRel\ext_recast.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\MinSizeRel\ext_tinyxml2.lib;lib\MinSizeRel\ext_xxhash.lib;lib\MinSizeRel\ext_xxtea.lib;lib\MinSizeRel\ext_clipper.lib;lib\MinSizeRel\ext_edtaa3func.lib;lib\MinSizeRel\ext_convertUTF.lib;lib\MinSizeRel\ext_poly2tri.lib;lib\MinSizeRel\ext_md5.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\MinSizeRel\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/MinSizeRel/PruebaDiego.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/MinSizeRel/PruebaDiego.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/Box2D/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/chipmunk/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/webp/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/png/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\PruebaDiego\Classes;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\audio\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\extensions;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\editor-support;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\base;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\platform\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\recast\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\tinyxml2\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxhash\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\xxtea\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\clipper\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\edtaa3func\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\ConvertUTF\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\poly2tri\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\md5\..;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\unzip\.;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\include\bullet;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\include\win32;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/DELL/Desktop/PruebaDiego/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\cocos2d.lib;lib\RelWithDebInfo\external.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\RelWithDebInfo\ext_recast.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\RelWithDebInfo\ext_tinyxml2.lib;lib\RelWithDebInfo\ext_xxhash.lib;lib\RelWithDebInfo\ext_xxtea.lib;lib\RelWithDebInfo\ext_clipper.lib;lib\RelWithDebInfo\ext_edtaa3func.lib;lib\RelWithDebInfo\ext_convertUTF.lib;lib\RelWithDebInfo\ext_poly2tri.lib;lib\RelWithDebInfo\ext_md5.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\RelWithDebInfo\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/RelWithDebInfo/PruebaDiego.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/PruebaDiego/proj.win32/bin/PruebaDiego/RelWithDebInfo/PruebaDiego.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\PruebaDiego\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/DELL/Desktop/PruebaDiego/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/PruebaDiego -BC:/Users/DELL/Desktop/PruebaDiego/proj.win32 --check-stamp-file C:/Users/DELL/Desktop/PruebaDiego/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/DELL/Desktop/PruebaDiego/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/PruebaDiego -BC:/Users/DELL/Desktop/PruebaDiego/proj.win32 --check-stamp-file C:/Users/DELL/Desktop/PruebaDiego/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/DELL/Desktop/PruebaDiego/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/PruebaDiego -BC:/Users/DELL/Desktop/PruebaDiego/proj.win32 --check-stamp-file C:/Users/DELL/Desktop/PruebaDiego/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/DELL/Desktop/PruebaDiego/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/PruebaDiego -BC:/Users/DELL/Desktop/PruebaDiego/proj.win32 --check-stamp-file C:/Users/DELL/Desktop/PruebaDiego/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\3.31.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CharactersScene.cpp" />
+    <ClCompile Include="Comentarios.cpp" />
+    <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="ContinueScene.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="NewGameScene.cpp" />
+    <ClCompile Include="Restart.cpp" />
+    <ClCompile Include="Save.cpp" />
+    <ClCompile Include="SettingsScene.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\AppDelegate.h" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\HelloWorldScene.h" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\main.h" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\resource.h" />
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\AppDelegate.cpp" />
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\main.cpp" />
+    <ClInclude Include="CharactersScene.h" />
+    <ClInclude Include="Continue.h" />
+    <ClInclude Include="ContinueScene.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="NewGameScene.h" />
+    <ClInclude Include="Restart.h" />
+    <ClInclude Include="Save.h" />
+    <ClInclude Include="SettingsScene.h" />
+    <ClInclude Include="Sound.h" />
+    <ResourceCompile Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\game.rc" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\CloseNormal.png" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\CloseSelected.png" />
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\HelloWorld.png" />
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\CaminoPlaya.png" />
+    <Image Include="..\..\..\Downloads\Donkey Kong.png" />
+    <Image Include="..\Resources\1-CrankyJump.png" />
+    <Image Include="..\Resources\1-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\1-CrankyWalk.png" />
+    <Image Include="..\Resources\1-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\1-DiddyDown.png" />
+    <Image Include="..\Resources\1-DiddyDownReverse.png" />
+    <Image Include="..\Resources\1-DiddyJump.png" />
+    <Image Include="..\Resources\1-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\1-DiddyRun.png" />
+    <Image Include="..\Resources\1-DiddyRunReverse.png" />
+    <Image Include="..\Resources\1-DixieDown.png" />
+    <Image Include="..\Resources\1-DixieDownReverse.png" />
+    <Image Include="..\Resources\1-DixieJump.png" />
+    <Image Include="..\Resources\1-DixieJumpDown.png" />
+    <Image Include="..\Resources\1-DixieRun.png" />
+    <Image Include="..\Resources\1-DixieRunDown.png" />
+    <Image Include="..\Resources\1-DonkeyDown.png" />
+    <Image Include="..\Resources\1-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\1-DonkeyJump.png" />
+    <Image Include="..\Resources\1-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\1-DonkeyRun.png" />
+    <Image Include="..\Resources\1-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\1-KiddyDown.png" />
+    <Image Include="..\Resources\1-KiddyDownReverse.png" />
+    <Image Include="..\Resources\1-KiddyJump.png" />
+    <Image Include="..\Resources\1-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\1-KiddyRun.png" />
+    <Image Include="..\Resources\1-KiddyRunReverse.png" />
+    <Image Include="..\Resources\1-RallyDown.png" />
+    <Image Include="..\Resources\1-RallyDownReverse.png" />
+    <Image Include="..\Resources\1-RallyJump.png" />
+    <Image Include="..\Resources\1-RallyJumpReverse.png" />
+    <Image Include="..\Resources\1-RallyRun.png" />
+    <Image Include="..\Resources\1-RallyRunReverse.png" />
+    <Image Include="..\Resources\10-CrankyJump.png" />
+    <Image Include="..\Resources\10-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\10-DiddyDown.png" />
+    <Image Include="..\Resources\10-DiddyDownReverse.png" />
+    <Image Include="..\Resources\10-DiddyJump.png" />
+    <Image Include="..\Resources\10-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\10-DiddyRun.png" />
+    <Image Include="..\Resources\10-DiddyRunReverse.png" />
+    <Image Include="..\Resources\10-DixieJump.png" />
+    <Image Include="..\Resources\10-DixieJumpReverse.png" />
+    <Image Include="..\Resources\10-DixieRun.png" />
+    <Image Include="..\Resources\10-DixieRunDown.png" />
+    <Image Include="..\Resources\10-DonkeyDown.png" />
+    <Image Include="..\Resources\10-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\10-DonkeyJump.png" />
+    <Image Include="..\Resources\10-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\10-DonkeyRun.png" />
+    <Image Include="..\Resources\10-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\10-KiddyJump.png" />
+    <Image Include="..\Resources\10-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\10-KiddyRun.png" />
+    <Image Include="..\Resources\10-kiddyRunReverse.png" />
+    <Image Include="..\Resources\11-CrankyJump.png" />
+    <Image Include="..\Resources\11-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\11-DiddyDown.png" />
+    <Image Include="..\Resources\11-DiddyDownReverse.png" />
+    <Image Include="..\Resources\11-DiddyJump.png" />
+    <Image Include="..\Resources\11-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\11-DiddyRun.png" />
+    <Image Include="..\Resources\11-DiddyRunReverse.png" />
+    <Image Include="..\Resources\11-DixieJump.png" />
+    <Image Include="..\Resources\11-DixieJumpReverse.png" />
+    <Image Include="..\Resources\11-DixieRun.png" />
+    <Image Include="..\Resources\11-DixieRunReverse.png" />
+    <Image Include="..\Resources\11-DonkeyDown.png" />
+    <Image Include="..\Resources\11-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\11-DonkeyJump.png" />
+    <Image Include="..\Resources\11-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\11-DonkeyRun.png" />
+    <Image Include="..\Resources\11-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\11-KiddyRun.png" />
+    <Image Include="..\Resources\11-KiddyRunReverse.png" />
+    <Image Include="..\Resources\12-DiddyDown.png" />
+    <Image Include="..\Resources\12-DiddyDownReverse.png" />
+    <Image Include="..\Resources\12-DiddyJump.png" />
+    <Image Include="..\Resources\12-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\12-DiddyRun.png" />
+    <Image Include="..\Resources\12-DiddyRunReverse.png" />
+    <Image Include="..\Resources\12-DixieJump.png" />
+    <Image Include="..\Resources\12-DixieJumpReverse.png" />
+    <Image Include="..\Resources\12-DixieRun.png" />
+    <Image Include="..\Resources\12-DixieRunReverse.png" />
+    <Image Include="..\Resources\12-DonkeyDown.png" />
+    <Image Include="..\Resources\12-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\12-DonkeyJump.png" />
+    <Image Include="..\Resources\12-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\12-DonkeyRun.png" />
+    <Image Include="..\Resources\12-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\13-DiddyDown.png" />
+    <Image Include="..\Resources\13-DiddyDownReverse.png" />
+    <Image Include="..\Resources\13-DiddyJump.png" />
+    <Image Include="..\Resources\13-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\13-DiddyRun.png" />
+    <Image Include="..\Resources\13-DiddyRunReverse.png" />
+    <Image Include="..\Resources\13-DixieJump.png" />
+    <Image Include="..\Resources\13-DixieJumpReverse.png" />
+    <Image Include="..\Resources\13-DixieRun.png" />
+    <Image Include="..\Resources\13-DixieRunReverse.png" />
+    <Image Include="..\Resources\13-DonkeyDown.png" />
+    <Image Include="..\Resources\13-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\13-DonkeyJump.png" />
+    <Image Include="..\Resources\13-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\13-DonkeyRun.png" />
+    <Image Include="..\Resources\13-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\14-DiddyDown.png" />
+    <Image Include="..\Resources\14-DiddyDownReverse.png" />
+    <Image Include="..\Resources\14-DiddyJump.png" />
+    <Image Include="..\Resources\14-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\14-DixieJump.png" />
+    <Image Include="..\Resources\14-DixieJumpReverse.png" />
+    <Image Include="..\Resources\14-DixieRun.png" />
+    <Image Include="..\Resources\14-DixieRunReverse.png" />
+    <Image Include="..\Resources\14-DonkeyDown.png" />
+    <Image Include="..\Resources\14-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\14-DonkeyJump.png" />
+    <Image Include="..\Resources\14-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\14-DonkeyRun.png" />
+    <Image Include="..\Resources\14-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\15-DiddyDown.png" />
+    <Image Include="..\Resources\15-DiddyDownReverse.png" />
+    <Image Include="..\Resources\15-DiddyJump.png" />
+    <Image Include="..\Resources\15-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\15-DixieJump.png" />
+    <Image Include="..\Resources\15-DixieJumpReverse.png" />
+    <Image Include="..\Resources\15-DixieRun.png" />
+    <Image Include="..\Resources\15-DixieRunReverse.png" />
+    <Image Include="..\Resources\15-DonkeyDown.png" />
+    <Image Include="..\Resources\15-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\15-DonkeyJump.png" />
+    <Image Include="..\Resources\15-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\15-DonkeyRun.png" />
+    <Image Include="..\Resources\15-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\16-DiddyDown.png" />
+    <Image Include="..\Resources\16-DiddyDownReverse.png" />
+    <Image Include="..\Resources\16-DiddyJump.png" />
+    <Image Include="..\Resources\16-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\16-DixieJump.png" />
+    <Image Include="..\Resources\16-DixieJumpReverse.png" />
+    <Image Include="..\Resources\16-DixieRun.png" />
+    <Image Include="..\Resources\16-DixieRunReverse.png" />
+    <Image Include="..\Resources\16-DonkeyDown.png" />
+    <Image Include="..\Resources\16-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\16-DonkeyJump.png" />
+    <Image Include="..\Resources\16-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\16-DonkeyRun.png" />
+    <Image Include="..\Resources\16-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\17-DiddyDown.png" />
+    <Image Include="..\Resources\17-DiddyDownReverse.png" />
+    <Image Include="..\Resources\17-DiddyJump.png" />
+    <Image Include="..\Resources\17-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\17-DixieJump.png" />
+    <Image Include="..\Resources\17-DixieJumpReverse.png" />
+    <Image Include="..\Resources\17-DonkeyDown.png" />
+    <Image Include="..\Resources\17-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\17-DonkeyJump.png" />
+    <Image Include="..\Resources\17-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\17-DonkeyRun.png" />
+    <Image Include="..\Resources\17-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\18-DiddyDown.png" />
+    <Image Include="..\Resources\18-DiddyDownReverse.png" />
+    <Image Include="..\Resources\18-DixieJump.png" />
+    <Image Include="..\Resources\18-DixieJumpReverse.png" />
+    <Image Include="..\Resources\18-DonkeyDown.png" />
+    <Image Include="..\Resources\18-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\18-DonkeyJump.png" />
+    <Image Include="..\Resources\18-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\18-DonkeyRun.png" />
+    <Image Include="..\Resources\18-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\19-DixieJump.png" />
+    <Image Include="..\Resources\19-DixieJumpReverse.png" />
+    <Image Include="..\Resources\19-DonkeyDown.png" />
+    <Image Include="..\Resources\19-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\19-DonkeyJump.png" />
+    <Image Include="..\Resources\19-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\19-DonkeyRun.png" />
+    <Image Include="..\Resources\19-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\2-CrankyJump.png" />
+    <Image Include="..\Resources\2-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\2-CrankyWalk.png" />
+    <Image Include="..\Resources\2-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\2-DiddyDown.png" />
+    <Image Include="..\Resources\2-DiddyDownReverse.png" />
+    <Image Include="..\Resources\2-DiddyJump.png" />
+    <Image Include="..\Resources\2-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\2-DiddyRun.png" />
+    <Image Include="..\Resources\2-DiddyRunReverse.png" />
+    <Image Include="..\Resources\2-DixieDown.png" />
+    <Image Include="..\Resources\2-DixieDownReverse.png" />
+    <Image Include="..\Resources\2-DixieJump.png" />
+    <Image Include="..\Resources\2-DixieJumpReverse.png" />
+    <Image Include="..\Resources\2-DixieRun.png" />
+    <Image Include="..\Resources\2-DixieRunDown.png" />
+    <Image Include="..\Resources\2-DonkeyDown.png" />
+    <Image Include="..\Resources\2-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\2-DonkeyJump.png" />
+    <Image Include="..\Resources\2-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\2-DonkeyRun.png" />
+    <Image Include="..\Resources\2-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\2-KiddyDown.png" />
+    <Image Include="..\Resources\2-KiddyDownReverse.png" />
+    <Image Include="..\Resources\2-KiddyJump.png" />
+    <Image Include="..\Resources\2-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\2-KiddyRun.png" />
+    <Image Include="..\Resources\2-KiddyRunReverse.png" />
+    <Image Include="..\Resources\2-RallyDown.png" />
+    <Image Include="..\Resources\2-RallyDownReverse.png" />
+    <Image Include="..\Resources\2-RallyJump.png" />
+    <Image Include="..\Resources\2-RallyJumpReverse.png" />
+    <Image Include="..\Resources\2-RallyRun.png" />
+    <Image Include="..\Resources\2-RallyRunReverse.png" />
+    <Image Include="..\Resources\20-DixieJump.png" />
+    <Image Include="..\Resources\20-DixieJumpReverse.png" />
+    <Image Include="..\Resources\20-DonkeyDown.png" />
+    <Image Include="..\Resources\20-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\20-DonkeyJump.png" />
+    <Image Include="..\Resources\20-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\20-DonkeyRun.png" />
+    <Image Include="..\Resources\20-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\21-DixieJump.png" />
+    <Image Include="..\Resources\21-DixieJumpReverse.png" />
+    <Image Include="..\Resources\21-DonkeyDown.png" />
+    <Image Include="..\Resources\21-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\22-DixieJump.png" />
+    <Image Include="..\Resources\22-DixieJumpReverse.png" />
+    <Image Include="..\Resources\22-DonkeyDown.png" />
+    <Image Include="..\Resources\22-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\23-DixieJump.png" />
+    <Image Include="..\Resources\23-DixieJumpReverse.png" />
+    <Image Include="..\Resources\23-DonkeyDown.png" />
+    <Image Include="..\Resources\23-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\24-DixieJump.png" />
+    <Image Include="..\Resources\24-DixieJumpReverse.png" />
+    <Image Include="..\Resources\24-DonkeyDown.png" />
+    <Image Include="..\Resources\24-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\25-DixieJump.png" />
+    <Image Include="..\Resources\25-DixieJumpReverse.png" />
+    <Image Include="..\Resources\25-DonkeyDown.png" />
+    <Image Include="..\Resources\25-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\26-DonkeyDown.png" />
+    <Image Include="..\Resources\26-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\27-DonkeyDown.png" />
+    <Image Include="..\Resources\27-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\28-DonkeyDown.png" />
+    <Image Include="..\Resources\28-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\29-DonkeyDown.png" />
+    <Image Include="..\Resources\29-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\3-CrankyJump.png" />
+    <Image Include="..\Resources\3-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\3-CrankyWalk.png" />
+    <Image Include="..\Resources\3-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\3-DiddyDown.png" />
+    <Image Include="..\Resources\3-DiddyDownReverse.png" />
+    <Image Include="..\Resources\3-DiddyJump.png" />
+    <Image Include="..\Resources\3-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\3-DiddyRun.png" />
+    <Image Include="..\Resources\3-DiddyRunReverse.png" />
+    <Image Include="..\Resources\3-DixieDown.png" />
+    <Image Include="..\Resources\3-DixieDownReverse.png" />
+    <Image Include="..\Resources\3-DixieJump.png" />
+    <Image Include="..\Resources\3-DixieJumpReverse.png" />
+    <Image Include="..\Resources\3-DixieRun.png" />
+    <Image Include="..\Resources\3-DixieRunReverse.png" />
+    <Image Include="..\Resources\3-DonkeyDown.png" />
+    <Image Include="..\Resources\3-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\3-DonkeyJump.png" />
+    <Image Include="..\Resources\3-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\3-DonkeyRun.png" />
+    <Image Include="..\Resources\3-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\3-KiddyDown.png" />
+    <Image Include="..\Resources\3-KiddyDownReverse.png" />
+    <Image Include="..\Resources\3-KiddyJump.png" />
+    <Image Include="..\Resources\3-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\3-KiddyRun.png" />
+    <Image Include="..\Resources\3-KiddyRunReverse.png" />
+    <Image Include="..\Resources\3-RallyDown.png" />
+    <Image Include="..\Resources\3-RallyDownReverse.png" />
+    <Image Include="..\Resources\3-RallyJump.png" />
+    <Image Include="..\Resources\3-RallyJumpReverse.png" />
+    <Image Include="..\Resources\3-RallyRun.png" />
+    <Image Include="..\Resources\3-RallyRunReverse.png" />
+    <Image Include="..\Resources\4-CrankyJump.png" />
+    <Image Include="..\Resources\4-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\4-CrankyWalk.png" />
+    <Image Include="..\Resources\4-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\4-DiddyDown.png" />
+    <Image Include="..\Resources\4-DiddyDownReverse.png" />
+    <Image Include="..\Resources\4-DiddyJump.png" />
+    <Image Include="..\Resources\4-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\4-DiddyRun.png" />
+    <Image Include="..\Resources\4-DiddyRunReverse.png" />
+    <Image Include="..\Resources\4-DixieDown.png" />
+    <Image Include="..\Resources\4-DixieDownReverse.png" />
+    <Image Include="..\Resources\4-DixieJump.png" />
+    <Image Include="..\Resources\4-DixieJumpReverse.png" />
+    <Image Include="..\Resources\4-DixieRun.png" />
+    <Image Include="..\Resources\4-DixieRunReverse.png" />
+    <Image Include="..\Resources\4-DonkeyDown.png" />
+    <Image Include="..\Resources\4-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\4-DonkeyJump.png" />
+    <Image Include="..\Resources\4-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\4-DonkeyRun.png" />
+    <Image Include="..\Resources\4-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\4-KiddyDown.png" />
+    <Image Include="..\Resources\4-KiddyDownReverse.png" />
+    <Image Include="..\Resources\4-KiddyJump.png" />
+    <Image Include="..\Resources\4-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\4-KiddyRun.png" />
+    <Image Include="..\Resources\4-KiddyRunReverse.png" />
+    <Image Include="..\Resources\4-RallyDown.png" />
+    <Image Include="..\Resources\4-RallyDownReverse.png" />
+    <Image Include="..\Resources\4-RallyJump.png" />
+    <Image Include="..\Resources\4-RallyJumpReverse.png" />
+    <Image Include="..\Resources\4-RallyRun.png" />
+    <Image Include="..\Resources\4-RallyRunReverse.png" />
+    <Image Include="..\Resources\5-CrankyJump.png" />
+    <Image Include="..\Resources\5-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\5-CrankyWalk.png" />
+    <Image Include="..\Resources\5-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\5-DiddyDown.png" />
+    <Image Include="..\Resources\5-DiddyDownReverse.png" />
+    <Image Include="..\Resources\5-DiddyJump.png" />
+    <Image Include="..\Resources\5-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\5-DiddyRun.png" />
+    <Image Include="..\Resources\5-DiddyRunReverse.png" />
+    <Image Include="..\Resources\5-DixieDown.png" />
+    <Image Include="..\Resources\5-DixieDownReverse.png" />
+    <Image Include="..\Resources\5-DixieJump.png" />
+    <Image Include="..\Resources\5-DixieJumpReverse.png" />
+    <Image Include="..\Resources\5-DixieRun.png" />
+    <Image Include="..\Resources\5-DixieRunReverse.png" />
+    <Image Include="..\Resources\5-DonkeyDown.png" />
+    <Image Include="..\Resources\5-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\5-DonkeyJump.png" />
+    <Image Include="..\Resources\5-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\5-DonkeyRun.png" />
+    <Image Include="..\Resources\5-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\5-KiddyDown.png" />
+    <Image Include="..\Resources\5-KiddyDownReverse.png" />
+    <Image Include="..\Resources\5-KiddyJump.png" />
+    <Image Include="..\Resources\5-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\5-KiddyRun.png" />
+    <Image Include="..\Resources\5-KiddyRunReverse.png" />
+    <Image Include="..\Resources\5-RallyDown.png" />
+    <Image Include="..\Resources\5-RallyDownReverse.png" />
+    <Image Include="..\Resources\5-RallyJump.png" />
+    <Image Include="..\Resources\5-RallyJumpReverse.png" />
+    <Image Include="..\Resources\5-RallyRun.png" />
+    <Image Include="..\Resources\5-RallyRunReverse.png" />
+    <Image Include="..\Resources\6-CrankyJump.png" />
+    <Image Include="..\Resources\6-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\6-CrankyWalk.png" />
+    <Image Include="..\Resources\6-CrankyWalkReverse.png" />
+    <Image Include="..\Resources\6-DiddyDown.png" />
+    <Image Include="..\Resources\6-DiddyDownReverse.png" />
+    <Image Include="..\Resources\6-DiddyJump.png" />
+    <Image Include="..\Resources\6-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\6-DiddyRun.png" />
+    <Image Include="..\Resources\6-DiddyRunReverse.png" />
+    <Image Include="..\Resources\6-DixieDown.png" />
+    <Image Include="..\Resources\6-DixieDownReverse.png" />
+    <Image Include="..\Resources\6-DixieJump.png" />
+    <Image Include="..\Resources\6-DixieJumpReverse.png" />
+    <Image Include="..\Resources\6-DixieRun.png" />
+    <Image Include="..\Resources\6-DixieRunReverse.png" />
+    <Image Include="..\Resources\6-DonkeyDown.png" />
+    <Image Include="..\Resources\6-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\6-DonkeyJump.png" />
+    <Image Include="..\Resources\6-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\6-DonkeyRun.png" />
+    <Image Include="..\Resources\6-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\6-KiddyDown.png" />
+    <Image Include="..\Resources\6-KiddyDownReverse.png" />
+    <Image Include="..\Resources\6-KiddyJump.png" />
+    <Image Include="..\Resources\6-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\6-KiddyRun.png" />
+    <Image Include="..\Resources\6-KiddyRunReverse.png" />
+    <Image Include="..\Resources\6-RallyDown.png" />
+    <Image Include="..\Resources\6-RallyDownReverse.png" />
+    <Image Include="..\Resources\6-RallyJump.png" />
+    <Image Include="..\Resources\6-RallyJumpReverse.png" />
+    <Image Include="..\Resources\6-RallyRun.png" />
+    <Image Include="..\Resources\6-RallyRunReverse.png" />
+    <Image Include="..\Resources\7-CrankyJump.png" />
+    <Image Include="..\Resources\7-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\7-DiddyDown.png" />
+    <Image Include="..\Resources\7-DiddyDownReverse.png" />
+    <Image Include="..\Resources\7-DiddyJump.png" />
+    <Image Include="..\Resources\7-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\7-DiddyRun.png" />
+    <Image Include="..\Resources\7-DiddyRunReverse.png" />
+    <Image Include="..\Resources\7-DixieDown.png" />
+    <Image Include="..\Resources\7-DixieDownReverse.png" />
+    <Image Include="..\Resources\7-DixieJump.png" />
+    <Image Include="..\Resources\7-DixieJumpReverse.png" />
+    <Image Include="..\Resources\7-DixieRun.png" />
+    <Image Include="..\Resources\7-DixieRunReverse.png" />
+    <Image Include="..\Resources\7-DonkeyDown.png" />
+    <Image Include="..\Resources\7-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\7-DonkeyJump.png" />
+    <Image Include="..\Resources\7-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\7-DonkeyRun.png" />
+    <Image Include="..\Resources\7-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\7-KiddyDown.png" />
+    <Image Include="..\Resources\7-KiddyDownReverse.png" />
+    <Image Include="..\Resources\7-KiddyJump.png" />
+    <Image Include="..\Resources\7-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\7-KiddyRun.png" />
+    <Image Include="..\Resources\7-KiddyRunReverse.png" />
+    <Image Include="..\Resources\7-RallyDown.png" />
+    <Image Include="..\Resources\7-RallyDownReverse.png" />
+    <Image Include="..\Resources\7-RallyJump.png" />
+    <Image Include="..\Resources\7-RallyJumpReverse.png" />
+    <Image Include="..\Resources\7-RallyRun.png" />
+    <Image Include="..\Resources\7-RallyRunReverse.png" />
+    <Image Include="..\Resources\8-CrankyJump.png" />
+    <Image Include="..\Resources\8-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\8-DiddyDown.png" />
+    <Image Include="..\Resources\8-DiddyDownReverse.png" />
+    <Image Include="..\Resources\8-DiddyJump.png" />
+    <Image Include="..\Resources\8-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\8-DiddyRun.png" />
+    <Image Include="..\Resources\8-DiddyRunReverse.png" />
+    <Image Include="..\Resources\8-DixieDown.png" />
+    <Image Include="..\Resources\8-DixieDownReverse.png" />
+    <Image Include="..\Resources\8-DixieJump.png" />
+    <Image Include="..\Resources\8-DixieJumpReverse.png" />
+    <Image Include="..\Resources\8-DixieRun.png" />
+    <Image Include="..\Resources\8-DonkeyDown.png" />
+    <Image Include="..\Resources\8-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\8-DonkeyJump.png" />
+    <Image Include="..\Resources\8-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\8-DonkeyRun.png" />
+    <Image Include="..\Resources\8-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\8-KiddyDown.png" />
+    <Image Include="..\Resources\8-KiddyDownReverse.png" />
+    <Image Include="..\Resources\8-KiddyJump.png" />
+    <Image Include="..\Resources\8-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\8-KiddyRun.png" />
+    <Image Include="..\Resources\8-KiddyRunReverse.png" />
+    <Image Include="..\Resources\8-RallyJump.png" />
+    <Image Include="..\Resources\8-RallyJumpReverse.png" />
+    <Image Include="..\Resources\8-RallyRun.png" />
+    <Image Include="..\Resources\8-RallyRunReverse.png" />
+    <Image Include="..\Resources\9-CrankyJump.png" />
+    <Image Include="..\Resources\9-CrankyJumpReverse.png" />
+    <Image Include="..\Resources\9-DiddyDown.png" />
+    <Image Include="..\Resources\9-DiddyDownReverse.png" />
+    <Image Include="..\Resources\9-DiddyJump.png" />
+    <Image Include="..\Resources\9-DiddyJumpReverse.png" />
+    <Image Include="..\Resources\9-DiddyRun.png" />
+    <Image Include="..\Resources\9-DiddyRunReverse.png" />
+    <Image Include="..\Resources\9-DixieJump.png" />
+    <Image Include="..\Resources\9-DixieJumpReverse.png" />
+    <Image Include="..\Resources\9-DixieRun.png" />
+    <Image Include="..\Resources\9-DixieRunReverse.png" />
+    <Image Include="..\Resources\9-DonkeyDown.png" />
+    <Image Include="..\Resources\9-DonkeyDownReverse.png" />
+    <Image Include="..\Resources\9-DonkeyJump.png" />
+    <Image Include="..\Resources\9-DonkeyJumpReverse.png" />
+    <Image Include="..\Resources\9-DonkeyRun.png" />
+    <Image Include="..\Resources\9-DonkeyRunReverse.png" />
+    <Image Include="..\Resources\9-KiddyJump.png" />
+    <Image Include="..\Resources\9-KiddyJumpReverse.png" />
+    <Image Include="..\Resources\9-KiddyRun.png" />
+    <Image Include="..\Resources\9-KiddyRunReverse.png" />
+    <Image Include="..\Resources\Back.png" />
+    <Image Include="..\Resources\BackArrow.png" />
+    <Image Include="..\Resources\CaminoPiedra.png" />
+    <Image Include="..\Resources\Cranky Kong.png" />
+    <Image Include="..\Resources\Diddy Kong.png" />
+    <Image Include="..\Resources\Dixie Kong.png" />
+    <Image Include="..\Resources\Exit.png" />
+    <Image Include="..\Resources\Kiddy Kong.png" />
+    <Image Include="..\Resources\King K. Rool.png" />
+    <Image Include="..\Resources\Next.png" />
+    <Image Include="..\Resources\NextArrow.png" />
+    <Image Include="..\Resources\Portada.png" />
+    <Image Include="..\Resources\Portada2.png" />
+    <Image Include="..\Resources\Rally Kong - Personaje.png" />
+    <Image Include="..\Resources\Rally Kong.png" />
+    <Image Include="..\Resources\SpritesDonkeyKong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{6A17F287-F660-3F8B-8D88-7D442493F143}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\SYNC_RESOURCE-PruebaDiego.vcxproj">
+      <Project>{FEFA90CA-377E-3D0F-A4D5-CFA582CB7A55}</Project>
+      <Name>SYNC_RESOURCE-PruebaDiego</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{576DBDF4-5E15-3325-AB59-DD38B85DDD3D}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{756D15AF-59BA-3929-A2D4-D562085D3E47}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{74A8181E-2F92-383B-979A-319EA973FB7A}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{DB6CDAB4-1935-3944-8A38-D1699953C08E}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{3F4AC329-ED03-3E81-9C49-4732BDB03C90}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{A6F4176A-67B5-3D0D-9DC9-457E295C67EC}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{0958797B-106F-3B7F-85DB-954E84A903EB}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{68439073-2C11-30E3-AAAC-3CBA1D52DC3D}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{4288224F-D187-3A3F-9F9E-E81DECF2485E}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{C34EDC2C-1D0A-319E-9F4A-312210CF214D}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{36F512BD-81D1-3018-8F81-BDD2C35117CE}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\engine\external\external.vcxproj">
+      <Project>{96438A65-4866-35CB-80B2-F6E556623B28}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

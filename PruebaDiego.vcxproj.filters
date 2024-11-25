@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL\Desktop\PruebaDiego\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Restart.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Continue.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CharactersScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Comentarios.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\PruebaDiego\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Restart.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Continue.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CharactersScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\PruebaDiego\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B232DC2E-A22E-3BA3-9ED4-F21B94835547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{83ED51C8-DBF4-338D-89A1-929A52A33D9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{6229FD53-88AA-33A4-8EBE-613237412B74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{02AE01D0-650F-3857-BF28-E2C942C814D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{E894923F-02D2-31DB-97B1-26D6E9940405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{93C972D8-58E3-371E-A46A-3ACBBC629A96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\CaminoPlaya.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Portada.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Portada2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Rally Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\CaminoPiedra.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Back.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Next.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Exit.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Donkey Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\BackArrow.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\NextArrow.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Dixie Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\King K. Rool.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Diddy Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Cranky Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Rally Kong - Personaje.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\SpritesDonkeyKong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Kiddy Kong.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieJumpDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DixieRunDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\21-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\21-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\21-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\21-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\22-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\22-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\22-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\23-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\23-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\23-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\24-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\24-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\24-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\24-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\25-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\25-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\26-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\26-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\27-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\27-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\28-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\28-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\29-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\1-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-DixieRunDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\2-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DixieDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\3-RallyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\4-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-CrankyWalk.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-CrankyWalkReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-KiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\5-RallyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\6-RallyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\7-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\8-KiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DiddyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\9-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-CrankyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DixieRunDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\10-kiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-CrankyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-DixieRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\11-KiddyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\12-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DiddyRun.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\13-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DixieRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\14-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DiddyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\15-DonkeyRunReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DiddyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\16-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\17-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\18-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\19-DonkeyJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\20-DonkeyJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\22-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\23-DixieJump.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\25-DixieJumpReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\25-DonkeyDown.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\29-DonkeyDownReverse.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

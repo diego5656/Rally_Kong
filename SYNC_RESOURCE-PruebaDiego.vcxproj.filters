@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\089771b9cb5dff1f3a4c2fce3b4acbff\SYNC_RESOURCE-PruebaDiego.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\PruebaDiego\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DELL\Desktop\PruebaDiego\proj.win32\CMakeFiles\SYNC_RESOURCE-PruebaDiego" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F8F72B34-7E9F-34EB-8901-F64BF6380A85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
